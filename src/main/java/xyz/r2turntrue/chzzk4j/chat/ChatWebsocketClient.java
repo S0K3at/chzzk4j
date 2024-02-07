@@ -139,7 +139,7 @@ public class ChatWebsocketClient extends WebSocketClient {
 
     @Override
     public void onError(Exception ex) {
-        ex.printStackTrace();
+        //ex.printStackTrace();
     }
 
     public void sendChat(String content) {
